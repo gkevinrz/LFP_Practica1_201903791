@@ -1,2 +1,3 @@
-# LFP_Practica1_201903791
-Repositorio Práctica 1 LFP
+# Repositorio Práctica 1 Lenguajes Formales y Programación
+## Kevin Gerardo Ruíz Yupe 
+## 201903791
