@@ -1,0 +1,119 @@
+body {
+  background:  #dae2e6 ;
+  color: #FFF;
+}
+
+.skewed-bg {
+  background:  #154360 ;
+  padding: 200px 0;
+  transform: skew(0deg, -10deg);
+  margin-top: -200px;
+}
+
+#Logo,img{
+  height:300px;
+	width:100%;
+	background:white;
+	position:relative;
+	
+}
+.skewed-bg .content {
+  transform: skew(0deg, 10deg);
+  text-align: center;
+}
+.skewed-bg .content .title {
+	font-size:60px;
+  padding-top: 100px;
+  font-weight: normal;
+}
+.skewed-bg .content .text {
+	font-size:20px;
+  width: 60%;
+  margin: 25px auto;
+  color: white;
+}
+
+.footer {
+  padding-top: 300px;
+}
+.footer .credits {
+  text-align: center;
+  color: #666;
+}
+.footer .credits .link {
+  color: #00B285;
+  text-decoration: none;
+}
+/*PARTE DE LAS TABLAS*/
+.container {
+  position: absolute;
+  top: 200%;
+  margin-bottom:100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+table {
+  width: 400px;
+  border-collapse: collapse;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+td {
+  padding: 15px;
+  background-color:rgba(255, 255, 255, 0.2);
+  color: black;
+}
+th {
+	  background-color:rgba(255, 255, 255, 0.2);
+
+color:white;
+  padding: 15px;
+  text-align: left;
+}
+thead th {
+  background-color: #55608f;
+}
+tbody tr:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+tbody td {
+  position: relative;
+}
+tbody td:hover:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -9999px;
+  bottom: -9999px;
+  background-color:  rgba(52, 73, 94,0.3);
+  z-index: -1;
+}
+/***************************/
+.Titulo{
+	position:relative;
+	text-align:center;
+	color:white;
+	padding:50px 0;
+	margin-top:5%;
+	margin-bottom:30%;
+	background-color:  #273746  ;
+}
+/****GRID REPORTES*************/
+.grid-container {
+	position:relative;
+	margin-top:-25%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+ /* background-color: #2196F3;*/
+  padding: 10px;
+}
+.grid-item {
+	color:black;
+
+  background-color:   #d7dbdd
+;
+ /* border: 1px solid rgba(0, 0, 0, 0.8);*/
+  padding: 20px;
+  text-align: center;
+}
